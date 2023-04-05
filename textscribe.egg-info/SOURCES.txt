@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+textscribe/__init__.py
+textscribe/scribe.py
+textscribe.egg-info/PKG-INFO
+textscribe.egg-info/SOURCES.txt
+textscribe.egg-info/dependency_links.txt
+textscribe.egg-info/top_level.txt
