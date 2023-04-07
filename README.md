@@ -180,6 +180,10 @@ print(name_values)
 
 ```
 
+## Github Repo
+
+https://github.com/huntert1004/textscribe
+
 
 
 

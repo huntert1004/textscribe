@@ -3,7 +3,6 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
-setup.cfg
 setup.py
 textscribe/__init__.py
 textscribe/scribe.py

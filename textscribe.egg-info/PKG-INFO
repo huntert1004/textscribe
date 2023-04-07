@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: textscribe
-Version: 0.1.5
+Version: 0.1.7
 Summary: Easily Structuring Data
 Home-page: 
 Author: Hunter Thomas
@@ -12,7 +12,6 @@ Classifier: Intended Audience :: Education
 Classifier: Operating System :: Microsoft :: Windows :: Windows 10
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
@@ -87,7 +86,7 @@ data = [['John', 25, 'New York'], ['Jane', 30, 'Los Angeles']]
 filename = 'example.txt'
 scribe.write_to_txt(data, filename, labels=labels, char_separator='/')
 
-# Example 2: Writing to a JSON file with labels
+# Example 3: Writing to a JSON file with labels
 data_list = [
     ["John", 30],
     ["Jane", 25],
@@ -190,13 +189,17 @@ delimiter_txt = '|'
 data_txt = scribe.extract_data_by_label_txt(file_name_txt, label_txt, delimiter_txt)
 print(data_txt)
 
-# Example 2: Extracting data from a JSON file
+# Example 3: Extracting data from a JSON file
 file_name = "data.json"
 label = "name"
 name_values = get_json_values(file_name, label)
 print(name_values)
 
 ```
+
+## Github Repo
+
+https://github.com/huntert1004/textscribe
 
 
 

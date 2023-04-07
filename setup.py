@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='textscribe',
-  version='0.1.5',
+  version='0.1.7',
   description='Easily Structuring Data',
   long_description=long_description,
   url='',  
